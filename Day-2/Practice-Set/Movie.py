@@ -1,14 +1,14 @@
 # Create a Movie class with name and rating.
 
-class movie:
+class Movie:
     def __init__(self, name, rating):
         self.name = name
         self.rating = rating
 
-lap1 = movie("ABC", 5)
-print(f"Movie Name: {lap1.name}")
-print(f"Rating: {lap1.rating}\n")
+m1 = Movie("ABC", 5)
+print(f"Movie Name: {m1.name}")
+print(f"Rating: {m1.rating}\n")
 
-lap2 = movie("XYZ", 4)
-print(f"Movie Name: {lap2.name}")
-print(f"Rating: {lap2.rating}")
+m2 = Movie("XYZ", 4)
+print(f"Movie Name: {m2.name}")
+print(f"Rating: {m2.rating}")
