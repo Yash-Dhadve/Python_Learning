@@ -11,7 +11,7 @@ class ATM:
             self.balance -= amount
             print("Amount Withdrawal Successful\n")
         else:
-            print("Not Sufficient Balance!\n") 
+            print("Insufficient Balance!\n") 
 
 acc1 = ATM("Yash")
 
